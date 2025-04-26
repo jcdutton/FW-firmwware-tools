@@ -25,14 +25,11 @@ sudo cp -a repo /usr/bin
 ```bash
 mkdir chromium
 cd chromium
-cp ../framework.xml .
-
-
 ```
 
 ```bash
 # It's this gist! As a repo!
-repo init -m framework.xml
+repo init -u https://github.com/jcdutton/FW-firmwware-tools.git -m framework.xml
 repo sync
 ```
 
