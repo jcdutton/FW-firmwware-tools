@@ -53,7 +53,7 @@ If you're not using Debian, or Debian has changed since this guide was written, 
 # This is important to un-break binman (setuptools complains about the license)
 sed -e 's/>=61.0/==68.2.2/' -i src/third_party/u-boot/files/tools/binman/pyproject.toml
 # Install everything
-pip install pyyaml pykwalify packaging pyelftools colorama src/platform/ec/zephyr/zmake src/third_party/u-boot/files/tools/binman
+pip install pyyaml pykwalify packaging pyelftools colorama src/platform/ec/zephyr/zmake binary-manager setuptools
 ```
 
 ## Prepare the Zephyr SDK
