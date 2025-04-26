@@ -36,7 +36,7 @@
   <project path="src/platform/ec"
            name="EmbeddedController"
            remote="framework"
-           revision="fwk-lotus-azalea-19573"
+           revision="fwk-lotus-azalea-19573-jcd2"
            groups="paygen,firmware" />
   <project path="src/third_party/zephyr/cmsis"
            name="chromiumos/third_party/zephyr/cmsis"
