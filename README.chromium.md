@@ -70,11 +70,20 @@ Answer the questions!
 
 ## Build the EC image
 
+
+If you have a FW13 FW13 AMD Ryzen 7840U:  The firmware to build is "azalea"
 ```bash
 zmake -j8 build azalea
+It will show up in (breathe) `src/platform/ec/build/zephyr/azalea/out/ec.bin`
 ```
 
-It will show up in (breathe) `src/platform/ec/build/zephyr/azalea/out/ec.bin`
+If you have a FW13 AMD Ryzen 7840HS: The firmware to build is "lotus"
+```bash
+zmake -j8 build lotus
+It will show up in (breathe) `src/platform/ec/build/zephyr/lotus/out/ec.bin`
+```
+
+If you have any other FW13, we don't have a working solution yet.
 
 In the future, just...
 
@@ -84,4 +93,8 @@ In the future, just...
 ### do your work
 
 zmake -j8 build azalea
+or
+zmake -j8 build lotus
+
 ```
+
